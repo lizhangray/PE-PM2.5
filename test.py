@@ -6,7 +6,7 @@ import torchvision.transforms as tfs
 import pandas as pd
 import numpy as np
 
-from networks_v2 import PM_Pie_Net
+from models.PM_Dual_Net import PM_Pie_Net
 from common.dcp import DarkChannel, SaturationMap
 
 
@@ -27,23 +27,23 @@ def process_input(im):
 Daytime_PM_MAX = 262.0  # Only for Beijing Dataset
 Daytime_PM_MIN = 1.0
 
-# TODO：test_imgs
+# TODO：1. test_imgs dir
 test_imgs = r'./imgs'
 img_dir = test_imgs + '/'
 output_dir = img_dir
 print("pred_dir:", output_dir)
 
 # 模型 ---------------------------------------------------
-# TODO：exp_dir
-exp_dir = r""
-model_dir = exp_dir + r"Checkpoints/PM_DBResNet18.pk"
+# TODO：2. exp_dir
+exp_dir = r"Checkpoints/"
+model_dir = exp_dir + r"PM_DBResNet18.pk"  # ['PM_DBResNet18', 'PM_Pie_Net_swint']
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 ckp = torch.load(model_dir, map_location=device)
 print("Load model: ", model_dir)
 
-# TODO：net
-net = PM_Pie_Net(Body='resnet18', DS_type="DS")
-net = nn.DataParallel(net)
+# TODO：3. backbone ['resnet18', 'mobilev2', 'swint']
+net = PM_Pie_Net(Body='resnet18', DS_type="DS", pretrained=False)
+net = nn.DataParallel(net)  # TODO: swint doesn't need this line but resnet18 needs !
 net.load_state_dict(ckp['model'])
 net.eval()
 
