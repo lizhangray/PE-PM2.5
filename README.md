@@ -11,6 +11,10 @@ Put your test images in the folder 'imgs/', and then run the following scripts.
 python test.py
 ```
 
+## Checkpoints
+
+[Google](https://drive.google.com/drive/folders/1oE67ZCw2hnKZP_HewZEqq82bwNBchz3D?usp=drive_link)
+[baidu](https://pan.baidu.com/s/1O_nMib7ljTl928aFQaee6A?pwd=k9vn)
 
 ## Citing 
 
@@ -31,8 +35,8 @@ The code is free for academic/research purpose. Please kindly cite our work in y
 
 <div align=center>
 <center class="half">
-    <img src="./imgs/P18_20.png" width="400"/>
-    <img src="./imgs/p3_73.jpg" width="400"/>
+    <img src="./imgs/P18_20.png" width="400" height="500"/>
+    <img src="./imgs/p3_73.jpg" width="400" height="500"/>
 </center>
 
 |  Model   | img_1 (left)  |  img_2 (right)
