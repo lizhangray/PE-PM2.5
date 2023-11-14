@@ -14,6 +14,7 @@ python test.py
 ## Checkpoints
 
 [Google](https://drive.google.com/drive/folders/1oE67ZCw2hnKZP_HewZEqq82bwNBchz3D?usp=drive_link)
+Or
 [baidu](https://pan.baidu.com/s/1O_nMib7ljTl928aFQaee6A?pwd=k9vn)
 
 ## Citing 
@@ -35,8 +36,8 @@ The code is free for academic/research purpose. Please kindly cite our work in y
 
 <div align=center>
 <center class="half">
-    <img src="./imgs/P18_20.png" width="400" height="500"/>
-    <img src="./imgs/p3_73.jpg" width="400" height="500"/>
+    <img src="./imgs/P18_20.png" width="400" height="300"/>
+    <img src="./imgs/p3_73.jpg" width="400" height="300"/>
 </center>
 
 |  Model   | img_1 (left)  |  img_2 (right)
@@ -45,8 +46,8 @@ The code is free for academic/research purpose. Please kindly cite our work in y
 | PE-ResNet18  | 23.16 |  64.03
 
 <center class="half">
-    <img src="./imgs/p18_80.jpg" width="400"/>
-    <img src="./imgs/P8_152.png" width="400"/>
+    <img src="./imgs/p18_80.jpg" width="400" height="300"/>
+    <img src="./imgs/P8_152.png" width="400" height="300"/>
 </center>
 
 |  Model   | img_1 (left)  |  img_2 (right)
@@ -55,8 +56,8 @@ The code is free for academic/research purpose. Please kindly cite our work in y
 | PE-ResNet18  | 84.84 |  125.80
 
 <center class="half">
-    <img src="./imgs/Beijing_20190530051212642_PM=22.jpg" width="400"/>
-    <img src="./imgs/Beijing_20191209132043910_PM=186.jpg" width="400"/>
+    <img src="./imgs/Beijing_20190530051212642_PM=22.jpg" width="400" height="300"/>
+    <img src="./imgs/Beijing_20191209132043910_PM=186.jpg" width="400" height="300"/>
 </center>
 
 |  Model   | img_1 (left)  |  img_2 (right)
