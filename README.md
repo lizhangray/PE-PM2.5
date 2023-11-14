@@ -56,8 +56,8 @@ The code is free for academic/research purpose. Please kindly cite our work in y
 | PE-ResNet18  | 84.84 |  125.80
 
 <center class="half">
-    <img src="./imgs/Beijing_20190530051212642_PM=22.jpg" width="400" height="300"/>
-    <img src="./imgs/Beijing_20191209132043910_PM=186.jpg" width="400" height="300"/>
+    <img src="./imgs/Beijing_20190530051212642_PM=22.jpg" width="400" height="500"/>
+    <img src="./imgs/Beijing_20191209132043910_PM=186.jpg" width="400" height="500"/>
 </center>
 
 |  Model   | img_1 (left)  |  img_2 (right)
