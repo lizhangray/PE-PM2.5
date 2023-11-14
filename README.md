@@ -2,6 +2,11 @@
 
 ## Prior-Enhanced Network for Image-based PM2.5 Estimation from Imbalanced Data Distribution 
 
+## Dependencies
+Python 3.8
+PyTorch 1.12.1
+opencv-python 4.7.0.72
+
 ## Run
 
 Put your test images in the folder 'imgs/', and then run the following scripts.
@@ -17,6 +22,10 @@ python test.py
 Or
 [baidu](https://pan.baidu.com/s/1O_nMib7ljTl928aFQaee6A?pwd=k9vn)
 
+## Useful links
+
+[Image-based-PM2.5-Estimation](https://github.com/qing-xue/Image-based-PM2.5-Estimation)
+
 ## Citing 
 
 The code is free for academic/research purpose. Please kindly cite our work in your publications if it helps your research.  
@@ -30,7 +39,6 @@ The code is free for academic/research purpose. Please kindly cite our work in y
   link={DOI:xxx}
 }
 ```
-
 
 ## Example
 
