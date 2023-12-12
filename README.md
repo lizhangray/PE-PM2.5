@@ -16,11 +16,11 @@ Put your test images in the folder 'imgs/', and then run the following scripts.
 python test.py
 ```
 
-## Checkpoints
+## Checkpoints & Datasets
 
 [Google](https://drive.google.com/drive/folders/1oE67ZCw2hnKZP_HewZEqq82bwNBchz3D?usp=drive_link)
 Or
-[baidu](https://pan.baidu.com/s/1O_nMib7ljTl928aFQaee6A?pwd=k9vn)
+[Baidu](https://pan.baidu.com/s/1O_nMib7ljTl928aFQaee6A?pwd=k9vn)
 
 ## Useful links
 
@@ -35,7 +35,7 @@ The code is free for academic/research purpose. Please kindly cite our work in y
 ```BibTeX
 @article{
   title={Image-based PM2.5 Estimation From Imbalanced Data Distribution Using Prior-Enhanced Neural Networks},
-  author={Xueqing Fang, Zhan Li, Bin Yuan, Chen, Yihang},
+  author={Xueqing Fang, Zhan Li, Bin Yuan, Yihang Chen},
   conference={IEEE Sensors Journal},
   year={2023}
   link={DOI:xxx}
