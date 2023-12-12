@@ -36,13 +36,13 @@ print("pred_dir:", output_dir)
 # 模型 ---------------------------------------------------
 # TODO：2. exp_dir
 exp_dir = r"Checkpoints/"
-model_dir = exp_dir + r"PM_DBResNet18.pk"  # ['PM_DBResNet18', 'PM_Pie_Net_swint']
+model_dir = exp_dir + r"PM_Pie_Net_mobilev2.pk"  # ['PM_DBResNet18', 'PM_Pie_Net_swint']
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 ckp = torch.load(model_dir, map_location=device)
 print("Load model: ", model_dir)
 
 # TODO：3. backbone ['resnet18', 'mobilev2', 'swint']
-net = PM_Pie_Net(Body='resnet18', DS_type="DS", pretrained=False)
+net = PM_Pie_Net(Body='mobilev2', DS_type="DS", pretrained=False)
 net = nn.DataParallel(net)  # TODO: swint doesn't need this line but resnet18 needs !
 net.load_state_dict(ckp['model'])
 net.eval()
