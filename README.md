@@ -1,6 +1,6 @@
 # PE-PM2.5
 
-## Prior-Enhanced Network for Image-based PM2.5 Estimation from Imbalanced Data Distribution 
+## Image-based PM2.5 Estimation From Imbalanced Data Distribution Using Prior-Enhanced Neural Networks
 
 ## Dependencies
 Python 3.8
@@ -26,15 +26,17 @@ Or
 
 [Image-based-PM2.5-Estimation](https://github.com/qing-xue/Image-based-PM2.5-Estimation)
 
+[(ICONIP 2023)](https://link.springer.com/chapter/10.1007/978-981-99-8141-0_20) Prior-Enhanced Network for Image-based PM2.5 Estimation from Imbalanced Data Distribution
+
 ## Citing 
 
 The code is free for academic/research purpose. Please kindly cite our work in your publications if it helps your research.  
 
 ```BibTeX
 @article{
-  title={Prior-Enhanced Network for Image-based PM2.5 Estimation from Imbalanced Data Distribution},
-  author={Xueqing Fang, Zhan Li, Bin Yuan, Xinrui Wang, Zekai Jiang, Jianliang Zeng and Qingliang Chen},
-  conference={The 30th International Conference on Neural Information Processing (ICONIP)},
+  title={Image-based PM2.5 Estimation From Imbalanced Data Distribution Using Prior-Enhanced Neural Networks},
+  author={Xueqing Fang, Zhan Li, Bin Yuan, Chen, Yihang},
+  conference={IEEE Sensors Journal},
   year={2023}
   link={DOI:xxx}
 }
