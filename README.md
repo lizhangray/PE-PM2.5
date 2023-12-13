@@ -38,7 +38,7 @@ The code is free for academic/research purpose. Please kindly cite our work in y
   author={Xueqing Fang, Zhan Li, Bin Yuan, Yihang Chen},
   conference={IEEE Sensors Journal},
   year={2023}
-  link={DOI:xxx}
+  link={DOI:10.1109/JSEN.2023.3343080}
 }
 ```
 
