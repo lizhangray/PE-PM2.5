@@ -34,11 +34,15 @@ The code is free for academic/research purpose. Please kindly cite our work in y
 
 ```BibTeX
 @article{
-  title={Image-based PM2.5 Estimation From Imbalanced Data Distribution Using Prior-Enhanced Neural Networks},
-  author={Xueqing Fang, Zhan Li, Bin Yuan, Yihang Chen},
-  conference={IEEE Sensors Journal},
-  year={2023}
-  link={DOI:10.1109/JSEN.2023.3343080}
+  title={Image-Based PM2.5 Estimation From Imbalanced Data Distribution Using Prior-Enhanced Neural Networks},
+  author={Fang, Xueqing and Li, Zhan and Yuan, Bin and Chen, Yihang},
+  journal={IEEE Sensors Journal},
+  volume={24},
+  number={4},
+  pages={4677--4693},
+  year={2024},
+  publisher={IEEE}
+  link={10.1109/JSEN.2023.3343080}
 }
 ```
 
