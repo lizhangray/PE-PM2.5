@@ -44,6 +44,7 @@ The code is free for academic/research purpose. Please kindly cite our work in y
   publisher={IEEE},
   link={10.1109/JSEN.2023.3343080}
 }
+<!--
 @inproceedings{fang2023prior,
   title={Prior-Enhanced Network for Image-Based PM2. 5 Estimation from Imbalanced Data Distribution},
   author={Fang, Xueqing and Li, Zhan and Yuan, Bin and Wang, Xinrui and Jiang, Zekai and Zeng, Jianliang and Chen, Qingliang},
@@ -53,6 +54,7 @@ The code is free for academic/research purpose. Please kindly cite our work in y
   organization={Springer},
   link={10.1007/978-981-99-8141-0_20}
 }
+-->
 ```
 
 ## Example
