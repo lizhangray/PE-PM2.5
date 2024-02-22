@@ -33,7 +33,7 @@ Or
 The code is free for academic/research purpose. Please kindly cite our work in your publications if it helps your research.  
 
 ```BibTeX
-@article{
+@article{fang2024image,
   title={Image-Based PM2.5 Estimation From Imbalanced Data Distribution Using Prior-Enhanced Neural Networks},
   author={Fang, Xueqing and Li, Zhan and Yuan, Bin and Chen, Yihang},
   journal={IEEE Sensors Journal},
@@ -43,6 +43,14 @@ The code is free for academic/research purpose. Please kindly cite our work in y
   year={2024},
   publisher={IEEE}
   link={10.1109/JSEN.2023.3343080}
+}
+@inproceedings{fang2023prior,
+  title={Prior-Enhanced Network for Image-Based PM2. 5 Estimation from Imbalanced Data Distribution},
+  author={Fang, Xueqing and Li, Zhan and Yuan, Bin and Wang, Xinrui and Jiang, Zekai and Zeng, Jianliang and Chen, Qingliang},
+  booktitle={International Conference on Neural Information Processing},
+  pages={260--271},
+  year={2023},
+  organization={Springer}
 }
 ```
 
