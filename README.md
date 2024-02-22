@@ -41,7 +41,7 @@ The code is free for academic/research purpose. Please kindly cite our work in y
   number={4},
   pages={4677--4693},
   year={2024},
-  publisher={IEEE}
+  publisher={IEEE},
   link={10.1109/JSEN.2023.3343080}
 }
 @inproceedings{fang2023prior,
@@ -50,7 +50,8 @@ The code is free for academic/research purpose. Please kindly cite our work in y
   booktitle={International Conference on Neural Information Processing},
   pages={260--271},
   year={2023},
-  organization={Springer}
+  organization={Springer},
+  link={10.1007/978-981-99-8141-0_20}
 }
 ```
 
