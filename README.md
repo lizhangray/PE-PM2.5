@@ -6,7 +6,8 @@
 Python 3.8
 PyTorch 1.12.1
 opencv-python 4.7.0.72
-matplotlib, scipy, opencv-python, pandas, scikit-image, scikit-learn, thop, torchsummary
+
+matplotlib, scipy, opencv-python, pandas, scikit-image, scikit-learn, thop, torchsummary...
 
 ## Run: Test
 
