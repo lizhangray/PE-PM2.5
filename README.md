@@ -23,14 +23,11 @@ python test.py
 # 1. Train single-branch nets   
 python main.py --run_type=train --data_root=D:\workplace\project\PM2.5数据集\Heshan_imgset --net=PM_Single_Net --backbone=resnet18 --loss=L2 --epochs=150 --bs=16 --patch_size=256 --pretrained
 
-
 # 2. Train dual-branch nets  
 python main.py  --run_type=train --data_root=D:\workplace\project\PM2.5数据集\Heshan_imgset --net=PM_Pie_Net --backbone=resnet18 --DS_type=DIS --loss=L2 --epochs=150 --bs=16 --patch_size=256 --pretrained
 
-
 # 3. Evaluation & Test  
 python main.py --run_type=eval --data_root=D:\workplace\project\PM2.5数据集\Heshan_imgset --net=PM_Single_Net --backbone=resnet18 --model_dir=exp_0510-1629/trained_models/PM_Single_Net_resnet18.pk --bs=16 --patch_size=256
-
 
 # 4. Data imbalance learning  
 python main.py --run_type=train --data_root=D:\workplace\project\PM2.5数据集\Heshan_imgset --net=PM_Pie_Net --backbone=resnet18 --DS_type=DIS --loss=L2 --balance --balance_type=LDS_bin --bin_width=10 --lds_clip=90 --epochs=150 --bs=16 --patch_size=256 --pretrained
