@@ -35,9 +35,13 @@ python main.py --run_type=train --data_root=D:\workplace\project\PM2.5数据集\
 
 ## Checkpoints & Datasets
 
-[Google](https://drive.google.com/drive/folders/1oE67ZCw2hnKZP_HewZEqq82bwNBchz3D?usp=drive_link)
-Or
+- Heshan dataset: [Google](https://drive.google.com/drive/folders/1oE67ZCw2hnKZP_HewZEqq82bwNBchz3D?usp=drive_link)
+or
 [Baidu](https://pan.baidu.com/s/1O_nMib7ljTl928aFQaee6A?pwd=k9vn)
+
+- VSS dataset: [Google](https://drive.google.com/file/d/1aF5CVQ1PPiLerJK7s_QdxRq3NlhqXgPm/view?usp=drive_link)
+
+- Beijing Dataset: [Github](https://github.com/Limin-Feng1993/Machine_Learning_of_PM2.5_by_Photographic_Measurement/tree/main)
 
 ## Useful links
 
